@@ -1,0 +1,1 @@
+#include <unistd.h>int main(int argc, char* argv) {	int parametro = 1;	int fd, leitura = 200;	char buffer[200];	while (parametro != argc) {		fd = open(argv(parametro), O_RDONLY);		if (fd == -1) {			perror("ficheiro nao existe");		}		while (leitura == 200 && fd != -1) {			leitura = read(fd, buffer, 200);			write(1, buffer, leitura);		}		parametro++;	}	return 0;}
