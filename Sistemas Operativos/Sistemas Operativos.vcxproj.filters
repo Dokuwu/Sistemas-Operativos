@@ -21,5 +21,8 @@
     <ClCompile Include="copiaficheiro.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="acrescentaficheiro.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

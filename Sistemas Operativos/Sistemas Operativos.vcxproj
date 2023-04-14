@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="acrescentaficheiro.c" />
     <ClCompile Include="copiaficheiro.c" />
     <ClCompile Include="mostraficheiro.c" />
   </ItemGroup>
