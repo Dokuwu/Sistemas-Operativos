@@ -18,5 +18,8 @@
     <ClCompile Include="mostraficheiro.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="copiaficheiro.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
