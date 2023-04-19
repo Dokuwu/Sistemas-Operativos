@@ -24,5 +24,11 @@
     <ClCompile Include="acrescentaficheiro.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="apagaficheiro.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="contaficheiro.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
