@@ -129,8 +129,12 @@
   <ItemGroup>
     <ClCompile Include="acrescentaficheiro.c" />
     <ClCompile Include="apagaficheiro.c" />
+    <ClCompile Include="apresenta_diretorio.c" />
     <ClCompile Include="contaficheiro.c" />
+    <ClCompile Include="conta_ficheiro.c" />
     <ClCompile Include="copiaficheiro.c" />
+    <ClCompile Include="informacao_ficheiro.c" />
+    <ClCompile Include="intrepetadorcomandos.c" />
     <ClCompile Include="mostraficheiro.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

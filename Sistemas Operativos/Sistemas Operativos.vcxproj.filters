@@ -13,22 +13,43 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\marco">
+      <UniqueIdentifier>{fa944cee-4650-4559-bae3-e282c67b35dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\intrepetor">
+      <UniqueIdentifier>{14c31ea8-8a74-42ad-be4b-5184d6658dcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\eu">
+      <UniqueIdentifier>{02c4499a-f632-4e44-a708-48a1213f7d4d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="mostraficheiro.c">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="apresenta_diretorio.c">
+      <Filter>Source Files\marco</Filter>
     </ClCompile>
-    <ClCompile Include="copiaficheiro.c">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="informacao_ficheiro.c">
+      <Filter>Source Files\marco</Filter>
     </ClCompile>
-    <ClCompile Include="acrescentaficheiro.c">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="conta_ficheiro.c">
+      <Filter>Source Files\marco</Filter>
     </ClCompile>
-    <ClCompile Include="apagaficheiro.c">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="intrepetadorcomandos.c">
+      <Filter>Source Files\intrepetor</Filter>
     </ClCompile>
     <ClCompile Include="contaficheiro.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\eu</Filter>
+    </ClCompile>
+    <ClCompile Include="acrescentaficheiro.c">
+      <Filter>Source Files\eu</Filter>
+    </ClCompile>
+    <ClCompile Include="apagaficheiro.c">
+      <Filter>Source Files\eu</Filter>
+    </ClCompile>
+    <ClCompile Include="copiaficheiro.c">
+      <Filter>Source Files\eu</Filter>
+    </ClCompile>
+    <ClCompile Include="mostraficheiro.c">
+      <Filter>Source Files\eu</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
