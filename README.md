@@ -15,6 +15,7 @@ No sentido de substituir o interpretador de comandos habitual, Bash shell, por u
 sistema. O programa deve mostrar o símbolo “%” como indicação de que está pronto para ler um novo comando do utilizador. O programa deve executar o comando através de primitivas de execução genérica de processos tendo como referência a funcionalidade da função system(3), mas sem fazer
 uso da mesma. Cada comando escrito deve dar origem a um novo processo. Adicionalmente, pode considerar que a execução do interpretador deve ser suspensa até o comando indicado estar concluído. O interpretador deve indicar sempre se o comando concluiu com ou sem sucesso, através do seu código de erro/terminação. O programa deve permitir executar vários comandos sequencialmente, isto é, um a seguir
 ao outro, até o utilizador indicar o comando especial “termina” que termina esta aplicação.
+
 $ ./interpretador
 % lista /home/user/Desktop
 ...
